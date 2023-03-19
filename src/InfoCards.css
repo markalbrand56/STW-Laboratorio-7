@@ -4,6 +4,7 @@
     flex-direction: row;
     width: 1000px;
     justify-content: space-between;
+    margin: 0 auto;
 }
 
 .info_card{

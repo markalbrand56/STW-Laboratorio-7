@@ -1,9 +1,8 @@
 #root {
   margin: 0 auto;
-  padding: 2rem;
   text-align: center;
   box-sizing: border-box;
-
+  width: 100%;
 }
 
 .logo {
@@ -46,3 +45,19 @@
 .read-the-docs {
   color: #888;
 }
+
+.fondoup{
+  background-color: #353748;
+  margin: 0%;
+}
+
+.fondodown{
+  background-color: #58b792;
+  margin: 0%;
+}
+
+.curva{
+  color: #58b792;
+  display: block;
+}
+
