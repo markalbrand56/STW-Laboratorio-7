@@ -25,7 +25,7 @@ module.exports = {
     "max-len" : [
       "warn",
       {"code":120}
-
-    ]
+    ],
+    "prettier/prettier": ["warn"]
   },
 };
