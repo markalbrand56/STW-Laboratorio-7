@@ -1,12 +1,12 @@
 import React from "react"
-import duckLogo from "./Logo"
+import logo from "./assets/ducklogo.svg"
 import "./App.css"
 import "./CheckItem.css"
 import { Textdesc, Textdescparagraph } from "./Textdesc"
-import { CheckItem } from "./CheckItem"
-import { InfoCards } from "./InfoCards"
-import { Button } from "./Button"
-import { Input } from "./Input"
+import CheckItem from "./CheckItem"
+import InfoCards from "./InfoCards"
+import Button from "./Button"
+import Input from "./Input"
 import "./fondo.css"
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
             <div className="fondoup">
                 <div className="logo">
                     <img
-                        src={duckLogo}
+                        src={logo}
                         alt="DuckDuckGo logo"
                         className="main_logo"
                     />

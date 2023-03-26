@@ -1,20 +1,29 @@
+import React from "react"
+import PropTypes from "prop-types"
 import "./Textdesc.css"
 
-const Textdesc = (props) => {
+function Textdesc({ children }) {
     return (
         <div className="textdesc">
-            <h2>{props.children}</h2>
+            <h2>{children}</h2>
         </div>
     )
 }
 
-const Textdescparagraph = (props) => {
+function Textdescparagraph({ children }) {
     return (
         <div className="textdesc">
-            <p>{props.children}</p>
+            <p>{children}</p>
         </div>
     )
 }
 
+Textdesc.propTypes = {
+    children: PropTypes.node.isRequired,
+}
+
+Textdescparagraph.propTypes = {
+    children: PropTypes.node.isRequired,
+}
 
 export { Textdesc, Textdescparagraph }
