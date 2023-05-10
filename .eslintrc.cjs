@@ -26,6 +26,6 @@ module.exports = {
       "warn",
       {"code":120}
     ],
-    "prettier/prettier": ["warn", {"semi":false, "tabWidth": 4}]
+    "prettier/prettier": ["warn", {"semi":false, "tabWidth": 4, 'endOfLine': 'auto'}]
   },
 };
